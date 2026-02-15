@@ -2,7 +2,6 @@ import {
   Profile,
   Experience,
   SocialLink,
-  ContributionDay,
   Project,
 } from "./types";
 
