@@ -1,89 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sanket Pawar - Engineer</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['"Fragment Mono"', 'monospace'],
-              mono: ['"Fragment Mono"', 'monospace'],
-            },
-            colors: {
-              background: 'var(--bg)',
-              surface: 'var(--surface)',
-              primary: 'var(--primary)',
-              secondary: 'var(--secondary)',
-              border: 'var(--border)',
-              graph: {
-                0: 'var(--g-0)',
-                1: 'var(--g-1)',
-                2: 'var(--g-2)',
-                3: 'var(--g-3)',
-                4: 'var(--g-4)',
-              }
-            }
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanket Pawar - Engineer</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Fragment Mono"', 'monospace'],
+            mono: ['"Fragment Mono"', 'monospace'],
           },
+          colors: {
+            background: 'var(--bg)',
+            surface: 'var(--surface)',
+            primary: 'var(--primary)',
+            secondary: 'var(--secondary)',
+            border: 'var(--border)',
+            graph: {
+              0: 'var(--g-0)',
+              1: 'var(--g-1)',
+              2: 'var(--g-2)',
+              3: 'var(--g-3)',
+              4: 'var(--g-4)',
+            }
+          }
         },
-      }
-    </script>
-    <!-- Google Font: Fragment Mono -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
-    <style>
-      :root {
-        --bg: #000000;
-        --surface: #121212;
-        --primary: #ffffff;
-        --secondary: #a1a1aa; /* zinc-400 */
-        --border: #27272a; /* zinc-800 */
+      },
+    }
+  </script>
+  <!-- Google Font: Fragment Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #000000;
+      --surface: #121212;
+      --primary: #ffffff;
+      --secondary: #a1a1aa;
+      /* zinc-400 */
+      --border: #27272a;
+      /* zinc-800 */
 
-        /* Contribution Graph Levels */
-        --g-0: #18181b; /* zinc-900 */
-        --g-1: #27272a; /* zinc-800 */
-        --g-2: #52525b; /* zinc-600 */
-        --g-3: #a1a1aa; /* zinc-400 */
-        --g-4: #ffffff;
-      }
+      /* Contribution Graph Levels */
+      --g-0: #18181b;
+      /* zinc-900 */
+      --g-1: #27272a;
+      /* zinc-800 */
+      --g-2: #52525b;
+      /* zinc-600 */
+      --g-3: #a1a1aa;
+      /* zinc-400 */
+      --g-4: #ffffff;
+    }
 
-      body {
-        background-color: var(--bg);
-        color: var(--primary);
-        -webkit-font-smoothing: antialiased;
-        transition: background-color 0.3s ease, color 0.3s ease;
-      }
+    body {
+      background-color: var(--bg);
+      color: var(--primary);
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
 
-      ::selection {
-        background: var(--primary);
-        color: var(--bg);
-      }
+    ::selection {
+      background: var(--primary);
+      color: var(--bg);
+    }
 
-      /* Minimal Scrollbar Styling */
-      ::-webkit-scrollbar {
-        height: 6px;
-        width: 6px;
-      }
-      
-      ::-webkit-scrollbar-track {
-        background: transparent;
-      }
-      
-      ::-webkit-scrollbar-thumb {
-        background-color: var(--border);
-        border-radius: 3px;
-      }
-      
-      ::-webkit-scrollbar-thumb:hover {
-        background-color: var(--secondary);
-      }
-    </style>
+    /* Minimal Scrollbar Styling */
+    ::-webkit-scrollbar {
+      height: 6px;
+      width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: var(--border);
+      border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: var(--secondary);
+    }
+  </style>
   <script type="importmap">
 {
   "imports": {
@@ -94,10 +101,12 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+
 </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
-  </body>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
 </html>
