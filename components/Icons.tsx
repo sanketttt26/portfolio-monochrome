@@ -1,7 +1,8 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Mail, ExternalLink, ChevronDown, ChevronUp, Box, Sun, Moon } from 'lucide-react';
+import { Github, Mail, ExternalLink, ChevronDown, ChevronUp, Box, Sun, Moon } from 'lucide-react';
 
 export const Icons = {
+  Github,
   Mail,
   ExternalLink,
   ChevronDown,
